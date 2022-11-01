@@ -6,7 +6,7 @@
 export default {
   computed: {
     addedNum() {
-        return this.$store.state.counter;
+        return this.$store.getters.multiplyByTwo;
     }
   },
 };
